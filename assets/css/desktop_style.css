@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+.dropcap {
+ float: left;
+ width: 120px;
+ height: 90px;
+}
+
+.dark_red {
+  background-color: #D71D17;
+}
+
+.biru {
+  background-color: #428bca;
+  color: white;
+}
+
+.biru_muda {
+  color: white;
+}
+
+.biru_muda2 {
+  color: white;
+  background-color: #428BCA;
+  font-size: 12px;
+  height: 30px;
+}
+
+.biru_muda2:hover,
+.biru_muda2:focus,
+.biru_muda2.focus,
+.biru_muda2:active,
+.biru_muda2.active,
+.open > .dropdown-toggle.biru_muda2 {
+  color: #003566;
+  background-color: white;
+}
+
+.merah {
+  border-color: #900;
+  color: white;
+  border: 5px;
+}
+.black {
+  background-color: #000000;
+  color: white;
+}
+
+.jumpm {
+  font-family: 'Arial', sans-serif;
+  background-color: #f97b0c;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+}
+
+.jumpm:hover,
+.jumpm:focus,
+.jumpm.focus,
+.jumpm:active,
+.jumpm.active,
+.open > .dropdown-toggle.jumpm {
+  color: #f97b0c;
+  background-color: #fff;
+  border-color: #f97b0c;
+}
+
+@media (max-width: 1030px) {
+.jumpm {
+  width: 100%;
+}
+}
+
+@media (min-width: 1030px) {
+.jumpm {
+  width: 260px;
+}
+}
+
+@media (min-width: 800px) {
+.plss {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+}
+}
+
+@media (max-width: 800px) {
+.plss {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 12px;
+  height: 30px;
+}
+}
+
+@media (max-width: 400px) {
+.plss {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 10px;
+  height: 25px;
+}
+}
+
+input[type="text"]:disabled {
+    background: #dfebf8;
+    color: black;
+}
+
+input[type="text2"]:disabled {
+    background: #5da1dc;
+    color: black;
+}
+
+.cetakstruk {
+  font-family: 'Arial', sans-serif;
+  background-color: #003566;
+  color: white;
+  font-size: 20px;
+  height: 46px;
+}
+
+@media (max-width: 1030px) {
+.cetakstruk {
+  width: 180px;
+}
+}
+@media (min-width: 1030px) {
+.cetakstruk {
+  width: 300px;
+}
+}
+
+.cetakstruk:hover,
+.cetakstruk:focus,
+.cetakstruk.focus,
+.cetakstruk:active,
+.cetakstruk.active,
+.open > .dropdown-toggle.cetakstruk {
+  color: #003566;
+  background-color: #fff;
+  border-color: #003566;
+}
+
+.orange {
+  font-family: 'Arial', sans-serif;
+  background-color: #f97b0c;
+  color: white;
+  font-size: 20px;
+  height: 46px;
+}
+
+@media (max-width: 1030px) {
+.orange {
+  width: 180px;
+}
+}
+@media (min-width: 1030px) {
+.orange {
+  width: 300px;
+}
+}
+
+.orange:hover,
+.orange:focus,
+.orange.focus,
+.orange:active,
+.orange.active,
+.open > .dropdown-toggle.orange {
+  color: #f97b0c;
+  background-color: #fff;
+  border-color: #f97b0c;
+}
+
+.orange2 {
+  font-family: 'Arial', sans-serif;
+  background-color: #f97b0c;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+  width: 100%;
+}
+
+.orange2:hover,
+.orange2:focus,
+.orange2.focus,
+.orange2:active,
+.orange2.active,
+.open > .dropdown-toggle.orange2 {
+  color: #f97b0c;
+  background-color: #fff;
+  border-color: #f97b0c;
+}
+
+.orange3as {
+  font-family: 'Arial', sans-serif;
+  background-color: #f97b0c;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 100%;
+}
+
+.orange3as:hover,
+.orange3as:focus,
+.orange3as.focus,
+.orange3as:active,
+.orange3as.active,
+.open > .dropdown-toggle.orange3as {
+  color: #f97b0c;
+  background-color: #fff;
+  border-color: #f97b0c;
+}
+
+.dsds {
+  font-family: 'Arial', sans-serif;
+}
+
+.dsds:hover,
+.dsds:focus,
+.dsds.focus,
+.dsds:active,
+.dsds.active,
+.open > .dropdown-toggle.dsds {
+  background-color: #D3E5F5;
+  border-color: #428bca;
+}
+
+.dsds2 {
+  font-family: 'Arial', sans-serif;
+  background-color: #D3E5F5;
+  border-color: #428bca;
+}
+
+@media (min-width: 1030px) {
+.form_biru {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #428bca;
+  font-size: 80px;
+  height: 84px;
+  width: 100%;
+}
+
+.form_biru:hover,
+.form_biru:focus,
+.form_biru.focus,
+.form_biru:active,
+.form_biru.active,
+.open > .dropdown-toggle.form_biru {
+  color: #428bca;
+  background-color: #fff;
+  border-color: #428bca;
+  font-size: 80px;
+}
+}
+
+@media (max-width: 1030px) {
+.form_biru {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #428bca;
+  font-size: 30px;
+  height: 34px;
+  width: 100%;
+  border-color: #428bca;
+}
+
+.form_biru:hover,
+.form_biru:focus,
+.form_biru.focus,
+.form_biru:active,
+.form_biru.active,
+.open > .dropdown-toggle.form_biru {
+  color: #428bca;
+  background-color: #fff;
+  border-color: #428bca;
+  font-size: 30px;
+}
+}
+
+@media (min-width: 1030px) {
+.form_biru2 {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #428bca;
+  font-size: 20px;
+  height: 25px;
+  width: 280px;
+}
+}
+
+@media (max-width: 1030px) {
+.form_biru2 {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #428bca;
+  font-size: 20px;
+  height: 25px;
+  width: 100%;
+}
+}
+
+
+
+
+@media (max-width: 1300px) {
+#sks {
+  display:none; 
+}
+}
+@media (min-width: 1030px) {
+#mobile {
+  display:none; 
+}
+}
+@media (min-width: 750px) {
+#mobile2 {
+  display:none; 
+}
+}
+@media (max-width: 1030px) {
+#dekstop {
+  display:none; 
+}
+}
+
+
+#cetak_struk {
+  display:none; 
+}

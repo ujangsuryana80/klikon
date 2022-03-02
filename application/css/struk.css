@@ -1,0 +1,61 @@
+#textNormal{
+	font-size: 12px;
+}
+
+#textNormal1{
+	font-size: 10px;
+}
+
+#textNormal2{
+	font-size: 8px;
+}
+
+#text {
+	font-size: 5px;
+}
+
+#textHead{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#textHead1{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#textHead2{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+#textHead{
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+@page
+	{
+	  size: auto; /* auto is the current printer page size */
+	  margin: 0mm; /* this affects the margin in the printer settings */
+	}
+
+body
+	{
+	  background-color:#FFFFFF;
+	  margin: 8px 8px 0 8px; /* the margin on the content before printing */
+	}
+#struk 
+	{
+	  font-family:"Lucida Console", "Courier New";
+	  font-size:10px;
+	  width:9.5cm;
+	}
+
+@media print 
+	{
+  	  .header, .hide { visibility: hidden }
+	}
+
